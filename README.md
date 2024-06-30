@@ -1,6 +1,6 @@
-This is the android application.\n
-Built with Flutter and Flask.\n
-Prerequisites:\n
+This is the android application.< br/>
+Built with Flutter and Flask.< br/>
+Prerequisites:< br/>
 1.Conda
 2.CUDA
 Setup Instructions:
