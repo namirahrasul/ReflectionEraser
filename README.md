@@ -1,8 +1,8 @@
-This is the android application.
-Built with Flutter and Flask.
-Prerequisites:
--Conda
--CUDA
+This is the android application.\n
+Built with Flutter and Flask.\n
+Prerequisites:\n
+1.Conda
+2.CUDA
 Setup Instructions:
 1. Clone branch git clone --branch mobile https://github.com/namirahrasul/DSRNet.git
 2. conda create -n newCondaEnvironment -c cctbx202208 -y
