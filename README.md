@@ -1,10 +1,10 @@
-This is the android application.< br/>
-Built with Flutter and Flask.< br/>
-Prerequisites:< br/>
-1.Conda
-2.CUDA
+This is the android application.\
+Built with Flutter and Flask.\
+Prerequisites:\
+1.Conda\
+2.CUDA\
 Setup Instructions:
-1. Clone branch git clone --branch mobile https://github.com/namirahrasul/DSRNet.git
+1. Clone branch git clone --branch mobile https://github.com/namirahrasul/ReflectionEraser.git
 2. conda create -n newCondaEnvironment -c cctbx202208 -y
 3. conda activate newCondaEnvironment
 4. conda install -c cctbx202208 python=3.9
@@ -14,10 +14,11 @@ Setup Instructions:
 7. cd ReflectionEraser/client
 8. flutter pub get
 
-Running Instructions:
-To  run server:
-1.conda activate newCondaEWnvironment
-2.python server/app.py
+Running Instructions:\
+To  run server:\
+1.conda activate newCondaEnvironment\
+2.python server/app.py\
+
 Open a second terminal for client:
 1. cd client
 2. flutter run
