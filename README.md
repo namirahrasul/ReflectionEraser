@@ -31,8 +31,7 @@ Built with Flutter and Flask.
     pip install -r DSRNet/requirements.txt
     ```
 
-### Running Instructions
-
-    ```sh
+### Running Instructions:
+```sh
     python main-window.py
-    ```
+```
