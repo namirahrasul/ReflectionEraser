@@ -1,4 +1,4 @@
-## Android Application
+## Desktop Application
 
 Built with Flutter and Flask.
 
