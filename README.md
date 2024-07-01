@@ -1,6 +1,6 @@
 ## Desktop Application
 
-Built with Flutter and Flask.
+Built with PyQt5 and Python
 
 ### Prerequisites
 
