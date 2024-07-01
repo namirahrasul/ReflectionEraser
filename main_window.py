@@ -1,10 +1,15 @@
+
 from PyQt6 import uic
 from PyQt6.QtCore import *
 from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
 
 from filepaths import Filepaths
-from DSRNet import single_image
+import DSRNet.single_image 
+
+# import IBCLN.single_image
+
+
 
     
 class UI_MainWindow(QMainWindow):
@@ -78,7 +83,7 @@ class UI_MainWindow(QMainWindow):
         * If you select an image file, it loads it into the screen.
         :return:
         """
-        image_file_path = single_image.predict(self.input_file_path)
+        image_file_path = DSRNet.single_image.predict(self.input_file_path)
         if image_file_path is None:
             return
         self.output_file_path = image_file_path

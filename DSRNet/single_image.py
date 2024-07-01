@@ -2,8 +2,20 @@ import os
 from os.path import join
 
 
+# import sys
+# sys.path.append('DSRNet/')
+
 import sys
-sys.path.append('DSRNet/')
+import os
+
+
+# Get the absolute path of the current directory
+dsrnet_path = os.path.abspath('DSRNet')
+
+# Add the IBCLN directory to the Python path
+sys.path.append(dsrnet_path)
+print(sys.path)
+
 
 import torch.backends.cudnn as cudnn
 
